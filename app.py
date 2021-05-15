@@ -77,13 +77,13 @@ def stats(start=None, end=None):
         results = session.query(*sel).\
             filter(Measurement.date >= start).all()
         temps = list(np.ravel(results))
-        return jsonify(temps=temps)
+        return jsonify(temps)
 
     results = session.query(*sel).\
         filter(Measurement.date >= start).\
         filter(Measurement.date <= end).all()
     temps = list(np.ravel(results))
-    return jsonify(temps=temps)
+    return jsonify(temps)
 
 if __name__ == '__main__':
     app.run(debug=True)
