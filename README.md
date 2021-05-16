@@ -27,10 +27,16 @@ From these statistics, we can notice a few differences between temperatures in J
 
 - Both the mean and median (50th percentile) temperatures for both months suggests that, on average, June is about 4 degrees hotter than December. 
 - The standard deviation for December is ~.5 degrees higher than for June, suggesting that temperatures in December are spread out further on average. That is, Oahu temperatures in December are more variable than in June.
-- As we would expect, December is generally colder than June on average, with half of the recorded temperatures being less than 71 degrees. As seen in the images above, this is lower than the average temperature in June, 74 degrees. However, a quarter of recorded temperatures in December are between 69 and 71 degrees, suggesting that December does not often become so cold that it would greatly affect business.
+- As we would expect, December is generally colder than June on average, with half of the recorded temperatures being less than 71 degrees. As seen in the images above, this is lower than the average temperature in June, ~75 degrees. However, a quarter of recorded temperatures in December are between 69 and 71 degrees, suggesting that December does not often become so cold that it would greatly affect business.
 
 ## Summary
 
+As noted above, there are essential differences between the temperatures in June and December. Interestingly, however, there are many similarities as well. The maximum temperature for both months is within 2 degrees of each other and the average temperature is only 4 degrees apart. While December _does_ get much colder than June (the minimum temperatures being 56 and 64 degrees, respectively), on average the temperatures seem fairly consistent between the two months. This suggests that our business won't be as affected as we initially worried. 
 
+### Additional Queries
 
+To ensure the success of the business, it would be prudent to perform further analyses of the weather during the months of June and December:
+
+- A specific look at rainfall during these months would allow us to determine whether these months would be more or less rainy than the rest of the year on average and plan our business practices accordingly.
+- Filtering the temperature and/or rainfall data by year as well as month would give us insight on whether the average temperature and rainfall for June and December have stayed consistent, or are trending higher or lower. This could be important information to ensure the longetivity of our business with potential changes in climate.
 
